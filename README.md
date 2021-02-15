@@ -85,11 +85,11 @@ See demo video above for more information on how it works. The working app
 ```
 After cloning the repo:
 
-Create a server.js file. Make a package.json file by running `npm init` from the command line.
+Create a server.js file. Make a package.json file by running 'npm init' from the command line.
 Install the dependencies: enter command 'npm install mysql express express-handlebars'. 
 The application will be invoked by using 'nodemon' or entering the following in the command line: 'node server.js'. 
-The Eat Da Burger App will be rendered on or entering the following in the command line: 'node server.js'. You will see 'App now listening at localhost:3000' in the console. You can then view the app on http://localhost:3000/.
-.
+The Eat Da Burger App will be rendered on or entering the following in the command line: 'node server.js'. 
+You will see 'App now listening at localhost:3000' in the console. You can then view the app on http://localhost:3000/.
 ```    
 #### Contribution Guidelines
 ```
