@@ -1,7 +1,8 @@
 <li>
-    {{name}}
+    {{burger_name}}
 
-    <button class="change-devoured btn btn-warning mt-2 mb-2" data-id="{{id}}" data-newdevour="{{devour}}">
-        {{#if sleep}}DEVOURED!{{else}}HUNGRY!{{/if}}
+    <button class="change-devoured btn btn-warning mt-2 mb-2" data-id="{{id}}" data-newdevoured="{{devoured}}">
+        {{#if devoured}}<img src="/assets/img/burger.png" width="30" height="auto" /> DEVOURED!{{else}}<img
+            src="/assets/img/mouth.png" width="30" height="auto" /> HUNGRY!{{/if}}
     </button>
 </li>
