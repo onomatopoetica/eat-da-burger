@@ -1,3 +1,18 @@
 * {
     font-family: 'Comfortaa', cursive;
 }
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: red;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: orange;
+  }
