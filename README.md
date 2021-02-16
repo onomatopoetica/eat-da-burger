@@ -79,7 +79,7 @@ git clone - https://github.com/onomatopoetica/eat-da-burger.git
 ```
 The application is a burger logger developed using MySQL, Node, Express, Handlebars and Object-Relational Mapping (ORM). 
 An MVC design pattern was followed using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML. 
-See demo video above for more information on how it works. The working app 
+See demo video above for more information on how it works.
 ```
 #### Tests
 ```
@@ -93,7 +93,7 @@ You will see 'App now listening at localhost:3000' in the console. You can then 
 ```    
 #### Contribution Guidelines
 ```
-When contributing to this repository, please contact the project team to review your contribution plan. 
+When contributing to this repository, please contact the project team for review of your contribution plan. 
 See contact details below.
 ```
 ## Questions 
