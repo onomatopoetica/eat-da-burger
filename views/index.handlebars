@@ -31,23 +31,21 @@
 <div class="container">
     <div class="row">
         <div class="col-6">
-            <h2>Burgers that I devoured!</h2>
-
+            <h2>I'm hungry! Gimme burgers!</h2>
             <ul>
                 {{#each burgers}}
                 {{#unless devoured}}
-                {{> burgers/burger-block devoured=true}}
+                {{> burgers/burger-block devoured=false}}
                 {{/unless}}
                 {{/each}}
             </ul>
         </div>
         <div class="col-6">
-            <h2>I'm hungry! Gimme burgers!</h2>
-
+            <h2>Burgers that I devoured!</h2>
             <ul>
                 {{#each burgers}}
                 {{#if devoured}}
-                {{> burgers/burger-block devoured=false}}
+                {{> burgers/burger-block devoured=true}}
                 {{/if}}
                 {{/each}}
             </ul>
