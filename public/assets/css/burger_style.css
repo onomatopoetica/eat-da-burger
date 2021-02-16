@@ -2,6 +2,13 @@
     font-family: 'Comfortaa', cursive;
 }
 
+li {
+  /* List-style-type: none removes bullets from list */
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+  }
+
 /* unvisited link */
 a:link {
     color: red;

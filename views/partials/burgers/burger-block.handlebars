@@ -1,8 +1,10 @@
-<li>
-    {{burger_name}}
+<div class="burgerDiv text-center">
+    <li>
+        <p class="burger">{{burger_name}}</p>
 
-    <button class="change-devoured btn btn-warning mt-2 mb-2" data-id="{{id}}" data-newdevoured="{{devoured}}">
-        {{#if devoured}}<img src="/assets/img/mouth.png" width="30" height="auto" /> DEVOURED!{{else}}<img
-            src="/assets/img/burger.png" width="30" height="auto" /> DEVOUR IT!{{/if}}
-    </button>
-</li>
+        <button class="change-devoured btn btn-warning mb-3" data-id="{{id}}" data-newdevoured="{{devoured}}">
+            {{#if devoured}}<img src="/assets/img/mouth.png" width="30" height="auto" /> DEVOURED!{{else}}<img
+                src="/assets/img/burger.png" width="30" height="auto" /> DEVOUR IT!{{/if}}
+        </button>
+    </li>
+</div>
