@@ -1,33 +1,28 @@
+{{!-- Page header --}}
 <div class="jumbotron jumbotron-fluid bg-warning">
     <div class="container container-fluid text-center">
         <h1 class="Title mb-4">EAT DA BURGER!</h1>
-        <img src="/assets/img/burger.png" alt="burger vector image" width="200" height="auto">
-        <img src="/assets/img/mouth.png" alt="mouth vector image" width="200" height="auto">
+        <img src="/assets/img/burger.png" alt="burger vector image" width="180" height="auto">
+        <img src="/assets/img/mouth.png" alt="mouth vector image" width="180" height="auto">
         <h2 class="subTitle mt-4">You KNOW you want to EAT DA BURGER! MMMMMM!</h2>
     </div>
 </div>
 
+{{!-- Adding a new burger --}}
 <div class="container container-fluid text-center">
-
     <h2>Add a Burger</h2>
     <form class="create-form">
-
         <div class="form-group">
             <label for="burger">Burger Name:</label>
             <input type="text" id="burger" name="burger_name">
         </div>
-
-        {{!-- <div class="form-group">
-            <label for="devoured">Devoured?</label><br>
-            <input type="radio" name="devoured" value="1" checked> Devoured!<br>
-            <input type="radio" name="devourIt" value="0"> Devour It!
-        </div> --}}
 
         <button class="btn btn-warning mb-5" type="submit"><img src="/assets/img/burger.png" width="30" height="auto" />
             Add Da Burger</button>
     </form>
 </div>
 
+{{!-- Burgers waiting to be devoured --}}
 <div class="container text-center">
     <div class="row">
         <div class="col-6">
@@ -40,6 +35,8 @@
                 {{/each}}
             </ul>
         </div>
+
+        {{!-- Devoured burgers --}}
         <div class="col-6">
             <h2>YUM! Burgers that I devoured!</h2>
             <ul>
@@ -52,6 +49,8 @@
         </div>
     </div>
 </div>
+
+{{!-- Footer --}}
 <footer class="burgerFooter pb-3 pt-3 text-center" style="font-size: 1rem;">
     <div class="text-black">
         <div class="madeWithLove" style="font-size: .85rem;">Eat Da Burger was created with <i class="fa fa-heart pulse"
