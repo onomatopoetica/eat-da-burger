@@ -26,7 +26,7 @@ A burger logger developed using MySQL, Node, Express, Handlebars and a homemade 
 
 * Whenever a user submits a burger's name, the app will display the burger beneath an `I'm hungry! Gimme burgers!` heading of the page -- waiting to be devoured.
 
-* Each burger in the waiting area also has a `DEVOUR IT!` button. When the user clicks it, the burger will move beneath the `Burgers that I devoured!` heading of the page.
+* Each burger in the waiting area also has a `DEVOUR IT!` button. When the user clicks it, the burger will move beneath the `YUM! Burgers that I devoured!` heading of the page.
 
 * The app will store every burger in the database, whether devoured or not.
 
