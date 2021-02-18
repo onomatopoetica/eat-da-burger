@@ -42,7 +42,7 @@ a:hover {
   }
 
   /* Medium */
-  @media screen and (min-width: 63.1em) and (max-width: 75.1em) {
+  @media screen and (min-width: 63.1em) and (max-width: 70.1em) {
     * {
       font-size: .80rem;
     }
