@@ -3,9 +3,14 @@
     <li>
         <p class="burger">{{burger_name}}</p>
 
-        <button class="eatburger btn btn-warning mb-3" data-id="{{id}}" data-newdevoured="{{devoured}}">
-            {{#if devoured}}<img src="/assets/img/mouth.png" width="30" height="auto" /> DEVOURED!{{else}}<img
-                src="/assets/img/burger.png" width="30" height="auto" /> DEVOUR IT!{{/if}}
-        </button>
+        <button class="eatburger btn btn-warning pt-1 pb-1 mb-3 mr-1" data-id="{{id}}" data-newdevoured="{{devoured}}">
+            {{#if devoured}}
+            <img src="/assets/img/mouth.png" width="30" height="auto" /> DEVOURED! </button><button data-id="{{id}}"
+            class="deleteburger btn btn-danger mb-1 mt-0 mb-3" type="button">
+            X</button>
+        {{else}}
+        <img src="/assets/img/burger.png" width="30" height="auto" /> DEVOUR IT!</button>
+        {{/if}}
+
     </li>
 </div>
