@@ -40,3 +40,17 @@ a:hover {
       padding: 0;
     }
   }
+
+  /* Medium */
+  @media screen and (min-width: 63.1em) and (max-width: 75.1em) {
+    * {
+      font-size: .80rem;
+    }
+    .burgerImg, .mouthImg {
+      width: 100;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }
