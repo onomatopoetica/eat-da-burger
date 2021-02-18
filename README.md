@@ -66,7 +66,7 @@ OR I can delete the burger by pressing the X button
 
 #### The following are screenshots of the application and overview of its functionality: <br>
 
-<img src="/assets/PLACEHOLDER.png" alt="app screenshot" width="900" height="auto">
+<img src="public/assets/img/devourReady.png" alt="app screenshot" width="900" height="auto">
 <img src="/assets/PLACEHOLDER.png" alt="app screenshot" width="900" height="auto">
 
 
