@@ -5,7 +5,7 @@ A burger logger developed using MySQL, Node, Express, Handlebars and a homemade 
 
 ## Project Links
 [Repo Link](https://github.com/onomatopoetica/eat-da-burger) <br>
-**NOTE:** Since this application cannot be deployed on GitHub, the deployed app can be found on [Heroku](https://PLACEHOLDER). Please see the **Demo** section below for an overview of its functionality and the **Getting Started** section for more information regarding installation, usage, contribution guidelines, tests and where to go for questions.
+**NOTE:** Since this application cannot be deployed on GitHub, the deployed app can be found on [Heroku](https://calm-anchorage-60492.herokuapp.com/). Please see the **Demo** section below for an overview of its functionality and the **Getting Started** section for more information regarding installation, usage, contribution guidelines, tests and where to go for questions.
     
 ## Table of Contents
 1. [About The Project](#About-The-Project)
@@ -26,11 +26,13 @@ A burger logger developed using MySQL, Node, Express, Handlebars and a homemade 
 
 * Whenever a user submits a burger's name, the app will display the burger beneath an `I'm hungry! Gimme burgers!` heading of the page -- waiting to be devoured.
 
-* Each burger in the waiting area also has a `DEVOUR IT!` button. When the user clicks it, the burger will move beneath the `YUM! Burgers that I devoured!` heading of the page.
+* Each burger in the waiting area has a `DEVOUR IT!` button. When the user clicks the button, the burger will move beneath the `YUM! Burgers that I devoured!` heading of the page.
+
+* The user can then order another of the same burger by clicking the `DEVOURED` button (this places that burger name back in the waiting area), or delete a devoured burger by pressing the `X` button.
 
 * The app will store every burger in the database, whether devoured or not.
 
-Because this application cannot be deployed on GitHub, a walkthrough video demonstrates its functionality below. The deployed app can be found on [Heroku](https://PLACEHOLDER/).
+Because this application cannot be deployed on GitHub, a walkthrough video demonstrates its functionality below. The deployed app can be found on [Heroku](https://calm-anchorage-60492.herokuapp.com/).
 
 ## User Story
 
@@ -43,7 +45,13 @@ So that I can add, select, and subsequently devour, said burgers!
 ## Acceptance Criteria
 
 ```
-PLACEHOLDER
+GIVEN a burger logger application that allows a hungry user to input burgers they would like to devour:
+WHEN I input the name of a burger I would like to devour
+THEN that burger name is placed in the waiting area with a DEVOUR IT! button
+WHEN I click the DEVOUR IT! button the burger is DEVOURED and placed in the DEVOURED section of the page
+THEN I have the option to order another burger by clicking the DEVOURED! button
+THEN the burger moves back to the waiting area with a DEVOUR IT! button
+OR I can delete the burger by pressing the X button
 ```
 
 ## Demo
