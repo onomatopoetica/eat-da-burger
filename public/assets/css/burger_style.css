@@ -24,3 +24,19 @@ a:visited {
 a:hover {
     color: orange;
   }
+
+/* Media queries */
+
+  /* Small only */
+  @media screen and (max-width: 63em) {
+    * {
+      font-size: .55rem;
+    }
+    .burgerImg, .mouthImg {
+      width: 100;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+  }

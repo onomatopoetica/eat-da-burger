@@ -5,14 +5,29 @@
 /* unvisited link */
 a:link {
     color: red;
-  }
+}
   
-  /* visited link */
-  a:visited {
+/* visited link */
+a:visited {
     color: red;
-  }
+}
   
-  /* mouse over link */
-  a:hover {
+/* mouse over link */
+a:hover {
     color: orange;
+}
+
+
+/* Media queries */
+
+  /* Small only */
+  @media screen and (max-width: 63em) {
+    * {
+      font-size: .55rem;
+    }
+    .burgerImg, .mouthImg {
+      width: 100;
+    }
   }
+    
+ 

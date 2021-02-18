@@ -10,19 +10,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/public/assets/css/burger_style.css" type="text/css" />
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/c502137733.js"></script>
     <title>EAT DA BURGER!</title>
     <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="/public/assets/js/burgers.js"></script>
 </head>
 
 <div class="jumbotron jumbotron-fluid bg-warning">
     <div class="container container-fluid text-center">
         <h1 class="Title mb-4">EAT DA BURGER!</h1>
-        <img src="img/burger.png" alt="burger vector image" width="180" height="auto">
-        <img src="img/mouth.png" alt="mouth vector image" width="180" height="auto">
+        <img class="burgerImg" src="img/burger.png" alt="burger vector image" width="180" height="auto">
+        <img class="mouthImg" src="img/mouth.png" alt="mouth vector image" width="180" height="auto">
         <h2 class="subTitle mt-4">You KNOW you want to EAT DA BURGER! MMMMMM!</h2>
     </div>
 </div>
@@ -47,13 +45,14 @@
             <h2>I'm hungry! Gimme burgers!</h2>
             <div class="btn1 text-center">
                 <p class="Da Guac">Da Holy Guacamole</p>
-                <button class="btn btn-warning" type="submit"><img src="img/burger.png" width="30" height="auto" />
+                <button class="btn btn-warning" type="submit"><img class="miniBurger" src="img/burger.png" width="30"
+                        height="auto" />
                     DEVOUR IT!</button>
             </div>
             <br>
             <div class="btn2">
                 <p class="Da Guac">Da Bacon Bacon Cheesy Cheese</p>
-                <button class="btn btn-warning mb-5" type="submit"><img src="img/burger.png" width="30"
+                <button class="btn btn-warning" type="submit"><img src="img/burger.png" width="30"
                         height="auto" />DEVOUR IT!</button>
             </div>
         </div>
@@ -61,7 +60,7 @@
             <h2>Yum! Burgers that I devoured!</h2>
             <div class="btn3 text-center">
                 <p class="Da Guac">Da Jalepeño Papa</p>
-                <button class="btn btn-warning pt-1 pb-1" type="submit"><img src="img/mouth.png" width="30"
+                <button class="btn btn-warning" type="submit"><img class="miniMouth" src="img/mouth.png" width="30"
                         height="auto" />
                     DEVOURED!</button></button> <button class="btn btn-danger" type="submit">
                     X</button>
@@ -69,8 +68,7 @@
             <br>
             <div class="btn4">
                 <p class="Da Guac">Da Avocado Vegan Eater!</p>
-                <button class="btn btn-warning pt-1 pb-1" type="submit"><img src="img/mouth.png" width="30"
-                        height="auto" />
+                <button class="btn btn-warning" type="submit"><img src="img/mouth.png" width="30" height="auto" />
                     DEVOURED!</button> <button class="btn btn-danger" type="submit">
                     X</button>
             </div>
