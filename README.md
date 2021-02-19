@@ -56,11 +56,7 @@ OR I can delete the burger by pressing the X button
 
 ## Demo
 
-#### The following is a video of the Eat Da Burger application performance and its functionality:
-
-[See how it works!](https://drive.google.com/PLACEHOLDER)  
-
-#### The following is a brief overview of the application in operation and rendering of the Eat Da Burger app. See full video demonstration on "See how it works!" link above: 
+#### The following is an overview of the application in operation and rendering of the Eat Da Burger app. 
     
 <img src="/PLACEHOLDER.GIF" alt="screenshot" title="app video" width="900" height="auto"> 
 
