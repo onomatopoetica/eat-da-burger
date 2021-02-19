@@ -58,7 +58,7 @@ OR I can delete the burger by pressing the X button
 
 #### The following is an overview of the application in operation and rendering of the Eat Da Burger app. 
     
-<img src="/PLACEHOLDER.GIF" alt="screenshot" title="app video" width="900" height="auto"> 
+<img src="/public/assets/img/eatDaBurger.GIF" alt="screenshot" title="app video" width="900" height="auto"> 
 
 #### The following are screenshots of the application and overview of its functionality: <br>
 
