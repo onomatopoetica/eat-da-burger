@@ -58,15 +58,15 @@ OR I can delete the burger by pressing the X button
 
 #### The following is an overview of the application in operation and rendering of the Eat Da Burger app. 
     
-<img src="/public/assets/img/eatDaBurger.GIF" alt="screenshot" title="app video" width="900" height="auto"> 
+<img src="/public/assets/img/eatBurger.GIF" alt="app video" title="app video" width="900" height="auto"> 
 
 #### The following is a screenshot of the application and overview of its functionality: <br>
 
-<img src="public/assets/img/eatDaBurger.png" alt="app screenshot" width="900" height="auto">
+<img src="public/assets/img/eatBurger.png" alt="app screenshot" width="900" height="auto">
 
 #### The following shows the Eat Da Burger app displayed on my portfolio with a link to its live Heroku page:
 
-<img src="/public/assets/img/jbportfolio.GIF" alt="screenshot" title="app video" width="900" height="auto"> 
+<img src="/public/assets/img/Portfolio.GIF" alt="app video" title="app video" width="900" height="auto"> 
 
 ## Getting Started
     
