@@ -28,7 +28,7 @@ A burger logger developed using MySQL, Node, Express, Handlebars and a homemade 
 
 * Each burger in the waiting area has a `DEVOUR IT!` button. When the user clicks the button, the burger will move beneath the `YUM! Burgers that I devoured!` heading of the page.
 
-* The user can then order another of the same burger by clicking the `DEVOURED` button (this places that burger name back in the waiting area), or delete a devoured burger by pressing the `X` button.
+* The user can then order another of the same burger by clicking the `DEVOUR AGAIN!` button (this places that burger name back in the waiting area), or delete a devoured burger by pressing the `X` button.
 
 * The app will store every burger in the database, whether devoured or not.
 
@@ -49,7 +49,7 @@ GIVEN a burger logger application that allows a hungry user to input burgers the
 WHEN I input the name of a burger I would like to devour
 THEN that burger name is placed in the waiting area with a DEVOUR IT! button
 WHEN I click the DEVOUR IT! button the burger is DEVOURED and placed in the DEVOURED section of the page
-THEN I have the option to order another burger by clicking the DEVOURED! button
+THEN I have the option to order another burger by clicking the DEVOUR AGAIN! button
 THEN the burger moves back to the waiting area with a DEVOUR IT! button
 OR I can delete the burger by pressing the X button
 ```
